@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asma-ul-Husna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ** NAVBAR -->
+
+    <header class="header">
+      <nav class="navbar">
+        <!-- ! Logo -->
+        <a href="#home" class="logo">Asma-ul-Husna</a>
+
+        <!-- !  Menu -->
+        <ul class="nav-links">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+
+          <li>
+            <a href="#names">99 Names</a>
+          </li>
+
+          <li>
+            <a href="#audio">Audio</a>
+          </li>
+
+          <li>
+            <a href="#about">About</a>
+          </li>
+        </ul>
+
+        <!-- ! Theme Button -->
+        <button id="themeBtn" class="theme-btn" type="button">🌙</button>
+
+        <!-- ! Mobile Menu Button -->
+        <button id="menuBtn" class="menu-btn" type="button">☰</button>
+      </nav>
+
+      <!-- ! Mobile Menu -->
+      <div id="mobileMenu" class="mobile-menu"></div>
+    </header>
+
+    <!-- ** MAIN  -->
+
+    <main>
+      <!-- ! HOME -->
+
+      <section id="home" class="home-section">
+        <div class="bismillah">
+          <p>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+
+          <button id="bismillahBtn" type="button">
+            🔊 Listen to Bismillah
+          </button>
+        </div>
+
+        <!-- ! Hero Content -->
+
+        <div class="hero-content">
+          <p class="small-title">Asma-ul-Husna</p>
+
+          <h1>99 Names of Allah</h1>
+
+          <p class="hero-text">
+            Discover the beautiful names of Allah, their meanings, and reflect
+            upon their timeless wisdom.
+          </p>
+
+          <a href="#names" class="hero-btn"> Explore the 99 Names </a>
+        </div>
+      </section>
+
+      <!-- ! AUDIO SECTION -->
+
+      <section id="audio" class="audio-section">
+        <div class="section-heading">
+          <p class="section-label">Listen & Reflect</p>
+
+          <h2>Listen to All 99 Names</h2>
+
+          <p>
+            Take a peaceful moment to listen to the beautiful Names of Allah.
+          </p>
+        </div>
+
+        <div class="main-audio">
+          <button id="playAllBtn" type="button">
+            ▶ Listen to All 99 Names
+          </button>
+
+          <button id="stopAudioBtn" type="button">■ Stop</button>
+        </div>
+      </section>
+
+      <!-- ! 99 NAMES -->
+
+      <section id="names" class="names-section">
+        <div class="section-heading">
+          <p class="section-label">Asma-ul-Husna</p>
+
+          <h2>The 99 Names of Allah</h2>
+
+          <p>Explore each beautiful name and its meaning.</p>
+        </div>
+
+        <!-- JavaScript will create the 99 cards here -->
+
+        <div id="namesContainer" class="names-container"></div>
+      </section>
+
+      <!-- ! ABOUT  -->
+
+      <section id="about" class="about-section">
+        <div class="section-heading">
+          <p class="section-label">About</p>
+
+          <h2>About Asma-ul-Husna</h2>
+        </div>
+
+        <div class="about-content">
+          <p>
+            Asma-ul-Husna means the beautiful names of Allah. Each name reflects
+            one of His beautiful attributes and helps us remember and understand
+            His greatness.
+          </p>
+
+          <p>
+            This website is created as a simple and peaceful way to explore the
+            99 Names, their meanings, and their recitation.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ! footer -->
+
+    <footer class="footer">
+      <div class="footer-content">
+        <h3>Asma-ul-Husna</h3>
+
+        <p>Reflect. Remember. Connect.</p>
+
+        <p class="copyright">© 2026 Asma-ul-Husna. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
